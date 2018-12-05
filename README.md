@@ -1,5 +1,8 @@
 # react-app
 react+redux+sagas+react-router+ant-design+webpack
 
-yarn start
-yarn build
+
+yarn install
+
+项目启动  yarn start
+项目打包  yarn build
