@@ -55,7 +55,14 @@ module.exports = {
       {
         include: /\.js?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        use: [
+          {
+            loader: 'babel-loader'
+          },
+          {
+            loader: 'eslint-loader'
+          }
+        ],
         query: {
           presets: ["es2015", "react"]
         }

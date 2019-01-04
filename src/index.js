@@ -5,6 +5,8 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter } from 'react-router-dom';
 import Routers from "./router";
+// import './styles/app.css';
+import './styles/common.less';
 
 class App extends Component {
   render() {

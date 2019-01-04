@@ -70,10 +70,11 @@ class App extends Component {
           {/*<Button type="primary">Button</Button>*/}
           <Joke value={"啦啦啦啦"}/>
           
-          /***** 提供者和消费者 ****/
+          {/***** 提供者和消费者 ****/}
           <ThemeProvider value={{mainColor: 'green', textColor: 'red', content: "哈哈哈"}} >
             <Page />
           </ThemeProvider>
+        <div onClick={()=>{window.location.hash = "/about"}}>跳转</div>
         </header>
       </div>
     );

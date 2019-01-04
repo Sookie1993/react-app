@@ -35,9 +35,6 @@
     "build": "webpack",
     "test": "react-app-rewired test"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
