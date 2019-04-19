@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
-// import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter } from 'react-router-dom';
 import Routers from "./router";
-// import './styles/app.css';
 import './styles/common.less';
 import Topheader from './components/topheader';
 import Leftsider from './components/sider';
